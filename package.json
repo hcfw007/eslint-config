@@ -4,7 +4,8 @@
   "description": "Personal ESLint Sharable Configurations and Rules.",
   "main": "src/eslintrc.js",
   "scripts": {
-    "test": "npm run lint && npm run test:unit"
+    "test": "npm run lint && npm run test:unit",
+    "postinstall": "node ./scripts/install.js"
   },
   "repository": {
     "type": "git",
