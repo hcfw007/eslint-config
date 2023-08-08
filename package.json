@@ -2,7 +2,7 @@
   "name": "@ddyscn/eslint-config",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/eslint.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/hcfw007/eslint-config#readme",
   "dependencies": {
+    "@babel/eslint-parser": "^7.22.10",
+    "@eslint/js": "^8.46.0",
     "eslint": "^8.46.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
   }
 }
