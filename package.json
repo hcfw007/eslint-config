@@ -19,14 +19,12 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.22.10",
     "@eslint/js": "^8.46.0",
-    "eslint": ">= 8"
+    "eslint": ">= 8",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-standard": "^5.0.0"
   },
   "peerDependencies": {
     "eslint": ">= 8"
-  },
-  "devDependencies": {
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-standard": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
