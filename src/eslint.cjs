@@ -16,7 +16,11 @@ module.exports = {
         }
       }
     ],
-    'standard/array-bracket-even-spacing': [2, 'always'],
+    'standard/array-bracket-even-spacing': [2, 'always', {
+      singleValue: false,
+      objectsInArrays: false,
+      arraysInArrays: false,
+    }],
     'standard/object-curly-even-spacing': [2, 'always'],
     'comma-dangle': [2, 'only-multiline'],
   }
